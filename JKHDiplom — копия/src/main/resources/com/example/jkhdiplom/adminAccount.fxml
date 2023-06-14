@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="PGlav" prefHeight="539.0" prefWidth="820.0" style="-fx-background-color: #909CE4;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jkhdiplom.AdminAccount">
+    <children>
+      <Label layoutX="273.0" layoutY="14.0" text="Главное окно сотрудника" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+        <Pane id="p" fx:id="p" layoutX="28.0" layoutY="346.0" onMouseClicked="#ClickP1" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" text="ТАРИФЫ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane id="p4" fx:id="p4" layoutX="28.0" layoutY="93.0" onMouseClicked="#ClickP4" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="120.0" text="НОВОСТИ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font></Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane id="p5" fx:id="p5" layoutX="298.0" layoutY="93.0" onMouseClicked="#ClickP5" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="216.0" text="ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+      <Pane fx:id="PEzGM" layoutX="572.0" layoutY="93.0" onMouseClicked="#ClExGM" prefHeight="238.0" prefWidth="253.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="64.0" prefWidth="188.0" text="ВЫЙТИ В ГЛАВНОЕ МЕНЮ" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="PSpZ" fx:id="PSpZ" layoutX="572.0" layoutY="346.0" onMouseClicked="#ClickSpZ" prefHeight="238.0" prefWidth="253.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="СПИСОК ЗАЯВОК" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="PSpP" fx:id="PSpP" layoutX="300.0" layoutY="346.0" onMouseClicked="#ClickSpP" prefHeight="238.0" prefWidth="253.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="СПИСОК ЖИЛЬЦОВ" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: White;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+        <ScrollPane fx:id="PDopUsl" layoutX="1.0" prefHeight="644.0" prefWidth="850.0" style="-fx-background-color: #909CE4;" visible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1277.0" prefWidth="835.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Button fx:id="BtnClDopUsl" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnClDopUsl" text="Вернуться" />
+                        <Pane fx:id="PaneDU1" layoutX="66.0" layoutY="57.0" onMouseClicked="#ClickUslP1" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="117.0" text="Все работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="137.0" layoutY="207.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU2" layoutX="311.0" layoutY="57.0" onMouseClicked="#ClickUslP2" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="200.0" text="Сантехнические работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="137.0" layoutY="207.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU3" layoutX="567.0" layoutY="57.0" onMouseClicked="#ClickUslP3" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="196.0" text="Плотницкие работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="137.0" layoutY="207.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU4" layoutX="66.0" layoutY="325.0" onMouseClicked="#ClickUslP4" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="213.0" text="Клининговые услуги" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="137.0" layoutY="207.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Label layoutX="290.0" layoutY="651.0" text="Дополнительные услуги" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="21.0" />
+                            </font></Label>
+                        <Label layoutX="378.0" layoutY="11.0" text="УСЛУГИ" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="21.0" />
+                            </font>
+                        </Label>
+                        <Pane layoutX="27.0" layoutY="707.0" prefHeight="438.0" prefWidth="779.0" style="-fx-background-color: #71c0c9; -fx-border-color: black;">
+                            <children>
+                                <TableView fx:id="tableUsl" layoutX="14.0" layoutY="14.0" prefHeight="360.0" prefWidth="751.0">
+                                    <columns>
+                                        <TableColumn fx:id="UsID" prefWidth="43.0" text="ID" />
+                                        <TableColumn fx:id="Usluga" prefWidth="447.0" text="Услуга" />
+                                        <TableColumn fx:id="Price" prefWidth="260.0" text="Цена" />
+                                    </columns>
+                                </TableView>
+                        <Pane fx:id="PDellUsl" layoutX="680.0" layoutY="386.0" onMouseClicked="#ClDellUsl" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="15.0" layoutY="8.0" text="Удалить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children></Pane>
+                        <Pane fx:id="PIzmUsl" layoutX="587.0" layoutY="386.0" onMouseClicked="#ClIzmUsl" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="8.0" layoutY="8.0" text="Изменить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children></Pane>
+                        <Pane fx:id="PAddUsl" layoutX="491.0" layoutY="386.0" onMouseClicked="#ClAddUsl" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="9.0" layoutY="8.0" text="Добавить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children></Pane>
+                        <Pane fx:id="PDellUslS" layoutX="687.0" layoutY="386.0" onMouseClicked="#ClDellUsl2" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="15.0" layoutY="8.0" text="Удалить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PIzmUslS" layoutX="587.0" layoutY="386.0" onMouseClicked="#ClIzmUsl2" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="8.0" layoutY="8.0" text="Изменить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PAddUslS" layoutX="487.0" layoutY="386.0" onMouseClicked="#ClAddUsl2" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="9.0" layoutY="8.0" text="Добавить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PAddUslW" layoutX="244.0" layoutY="77.0" prefHeight="227.0" prefWidth="289.0" style="-fx-background-color: #909CE4;" visible="false">
+                           <children>
+                              <Label layoutX="59.0" layoutY="14.0" text="Добавление услуги" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="tfUslAdd" layoutX="70.0" layoutY="64.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfPrAdd" layoutX="70.0" layoutY="114.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PAddUslWind" layoutX="46.0" layoutY="174.0" onMouseClicked="#ClAddUslW" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="2.0" text="Добавить">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackUslWind" layoutX="154.0" layoutY="174.0" onMouseClicked="#ClBackUslW" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="13.0" layoutY="2.0" text="Отмена">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PAddUslWind2" layoutX="48.0" layoutY="174.0" onMouseClicked="#ClAddUslW2" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="2.0" text="Добавить">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackUslWind2" layoutX="156.0" layoutY="174.0" onMouseClicked="#ClBackUslW2" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="13.0" layoutY="2.0" text="Отмена">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <TextField fx:id="tfUslAdd2" layoutX="70.0" layoutY="64.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfPrAdd2" layoutX="70.0" layoutY="112.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PAddUslWind3" layoutX="48.0" layoutY="174.0" onMouseClicked="#ClAddUslW3" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="2.0" text="Добавить">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackUslWind3" layoutX="156.0" layoutY="174.0" onMouseClicked="#ClBackUslW3" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="13.0" layoutY="2.0" text="Отмена">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <TextField fx:id="tfUslAdd3" layoutX="70.0" layoutY="62.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfPrAdd3" layoutX="70.0" layoutY="112.0" promptText="Цена" visible="false" />
+                              <TextField fx:id="tfUslAdd4" layoutX="70.0" layoutY="62.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfPrAdd4" layoutX="70.0" layoutY="112.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PAddUslWind4" layoutX="48.0" layoutY="174.0" onMouseClicked="#ClAddUslW4" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="2.0" text="Добавить">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackUslWind4" layoutX="156.0" layoutY="174.0" onMouseClicked="#ClBackUslW4" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="13.0" layoutY="2.0" text="Отмена">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Label fx:id="wtextAddUsl" layoutX="67.0" layoutY="145.0" text="Данные в полях некорректны" textFill="RED" visible="false">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PIzmUslW" layoutX="258.0" layoutY="81.0" prefHeight="227.0" prefWidth="289.0" style="-fx-background-color: #909CE4;" visible="false">
+                           <children>
+                              <Label layoutX="64.0" layoutY="14.0" text="Изменение услуги" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="tfIzmUslW" layoutX="70.0" layoutY="78.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfIzmPrW" layoutX="70.0" layoutY="128.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PIzmUslWind" layoutX="50.0" layoutY="183.0" onMouseClicked="#ClSohrIzmW" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="4.0" text="Сохранить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children></Pane>
+                              <Pane fx:id="PBackIzmUslWind" layoutX="158.0" layoutY="183.0" onMouseClicked="#ClBackIzmW" prefHeight="31.0" prefWidth="78.0" visible="false">
+                                 <children>
+                                    <Label layoutX="3.0" layoutY="5.0" text="Отменить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children></Pane>
+                              <TextField fx:id="tfIzmUslW2" layoutX="70.0" layoutY="76.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfIzmPrW2" layoutX="70.0" layoutY="126.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PIzmUslWind2" layoutX="51.0" layoutY="182.0" onMouseClicked="#ClSohrIzmW2" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="4.0" text="Сохранить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackIzmUslWind2" layoutX="159.0" layoutY="182.0" onMouseClicked="#ClBackIzmW2" prefHeight="31.0" prefWidth="78.0" visible="false">
+                                 <children>
+                                    <Label layoutX="3.0" layoutY="5.0" text="Отменить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <TextField fx:id="tfIzmUslW3" layoutX="70.0" layoutY="66.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfIzmPrW3" layoutX="70.0" layoutY="116.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PIzmUslWind3" layoutX="51.0" layoutY="175.0" onMouseClicked="#ClSohrIzmW3" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="4.0" text="Сохранить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PBackIzmUslWind3" layoutX="159.0" layoutY="175.0" onMouseClicked="#ClBackIzmW3" prefHeight="31.0" prefWidth="78.0" visible="false">
+                                 <children>
+                                    <Label layoutX="3.0" layoutY="5.0" text="Отменить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <TextField fx:id="tfIzmUslW4" layoutX="70.0" layoutY="66.0" promptText="Услуга" visible="false" />
+                              <TextField fx:id="tfIzmPrW4" layoutX="70.0" layoutY="116.0" promptText="Цена" visible="false" />
+                              <Pane fx:id="PBackIzmUslWind4" layoutX="159.0" layoutY="175.0" onMouseClicked="#ClBackIzmW4" prefHeight="31.0" prefWidth="78.0" visible="false">
+                                 <children>
+                                    <Label layoutX="3.0" layoutY="5.0" text="Отменить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PIzmUslWind4" layoutX="51.0" layoutY="175.0" onMouseClicked="#ClSohrIzmW4" prefHeight="31.0" prefWidth="85.0" visible="false">
+                                 <children>
+                                    <Label layoutX="4.0" layoutY="4.0" text="Сохранить">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PDellUslP" layoutX="680.0" layoutY="382.0" onMouseClicked="#ClDellUsl3" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="15.0" layoutY="8.0" text="Удалить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PIzmUslP" layoutX="578.0" layoutY="382.0" onMouseClicked="#ClIzmUsl3" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="8.0" layoutY="8.0" text="Изменить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PAddUslP" layoutX="475.0" layoutY="382.0" onMouseClicked="#ClAddUsl3" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="9.0" layoutY="8.0" text="Добавить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PDellUslK" layoutX="680.0" layoutY="382.0" onMouseClicked="#ClDellUsl4" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="15.0" layoutY="8.0" text="Удалить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PIzmUslK" layoutX="578.0" layoutY="382.0" onMouseClicked="#ClIzmUsl4" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="8.0" layoutY="8.0" text="Изменить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PAddUslK" layoutX="475.0" layoutY="382.0" onMouseClicked="#ClAddUsl4" prefHeight="35.0" prefWidth="85.0" visible="false">
+                           <children>
+                              <Label layoutX="9.0" layoutY="8.0" text="Добавить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                            </children></Pane>
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+        <ScrollPane fx:id="PTar" layoutX="-1.0" layoutY="-8.0" prefHeight="653.0" prefWidth="851.0" style="-fx-background-color: #909CE4;" visible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1189.0" prefWidth="836.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Pane fx:id="TPane1" layoutX="14.0" layoutY="60.0" prefHeight="35.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="363.0" layoutY="8.0" text="ОТОПЛЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane3" layoutX="14.0" layoutY="605.0" prefHeight="35.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="331.0" layoutY="8.0" text="ЭЛЕКТРОСНАБЖЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane4" layoutX="14.0" layoutY="879.0" prefHeight="35.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="309.0" layoutY="11.0" text="ГОРЯЧЕЕ ВОДОСНАБЖЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane2" layoutX="14.0" layoutY="332.0" prefHeight="35.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="228.0" layoutY="8.0" text="ХОЛОДНОЕ ВОДОСНАБЖЕНИЕ И ВОДООТВЕДЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Label layoutX="385.0" layoutY="14.0" text="ТАРИФЫ" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <TableView fx:id="tableOtop" layoutX="14.0" layoutY="95.0" prefHeight="200.0" prefWidth="813.0">
+                            <columns>
+                                <TableColumn fx:id="OtopID" prefWidth="38.0" text="№" />
+                                <TableColumn fx:id="OtopRes" prefWidth="114.0" text="Ресурс" />
+                                <TableColumn fx:id="OtopTar" prefWidth="145.0" text="Тариф" />
+                                <TableColumn fx:id="OtopNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                                <TableColumn fx:id="OtopResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                            </columns>
+                        </TableView>
+                        <TableView fx:id="tableHol" layoutX="14.0" layoutY="367.0" prefHeight="200.0" prefWidth="813.0">
+                            <columns>
+                                <TableColumn fx:id="HolID" prefWidth="38.0" text="№" />
+                                <TableColumn fx:id="HolRes" prefWidth="114.0" text="Ресурс" />
+                                <TableColumn fx:id="HolTar" prefWidth="145.0" text="Тариф" />
+                                <TableColumn fx:id="HolNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                                <TableColumn fx:id="HolResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                            </columns>
+                        </TableView>
+                        <TableView fx:id="tableElectr" layoutX="14.0" layoutY="640.0" prefHeight="200.0" prefWidth="813.0">
+                            <columns>
+                                <TableColumn fx:id="ElectID" prefWidth="38.0" text="№" />
+                                <TableColumn fx:id="ElectRes" prefWidth="114.0" text="Ресурс" />
+                                <TableColumn fx:id="ElectTar" prefWidth="145.0" text="Тариф" />
+                                <TableColumn fx:id="ElectNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                                <TableColumn fx:id="ElectResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                            </columns>
+                        </TableView>
+                        <TableView fx:id="tableGor" layoutX="14.0" layoutY="914.0" prefHeight="200.0" prefWidth="813.0">
+                            <columns>
+                                <TableColumn fx:id="GorID" prefWidth="38.0" text="№" />
+                                <TableColumn fx:id="GorRes" prefWidth="114.0" text="Ресурс" />
+                                <TableColumn fx:id="GorTar" prefWidth="145.0" text="Тариф" />
+                                <TableColumn fx:id="GorNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                                <TableColumn fx:id="GorResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                            </columns>
+                        </TableView>
+                  <Pane fx:id="pIzmTarAdm" layoutX="674.0" layoutY="301.0" onMouseClicked="#ClIzmTar1" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Изменить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pDellTarAdm" layoutX="756.0" layoutY="301.0" onMouseClicked="#ClDellTar1" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="11.0" layoutY="4.0" text="Удалить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAddTarAdm" layoutX="593.0" layoutY="301.0" onMouseClicked="#ClAddTar1" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="7.0" layoutY="4.0" text="Добавить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAddTarAdm1" layoutX="593.0" layoutY="573.0" onMouseClicked="#ClAddTar2" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="7.0" layoutY="4.0" text="Добавить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pIzmTarAdm1" layoutX="674.0" layoutY="573.0" onMouseClicked="#ClIzmTar2" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Изменить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pDellTarAdm1" layoutX="756.0" layoutY="573.0" onMouseClicked="#ClDellTar2" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="11.0" layoutY="4.0" text="Удалить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAddTarAdm2" layoutX="593.0" layoutY="848.0" onMouseClicked="#ClAddTar3" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="7.0" layoutY="4.0" text="Добавить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pIzmTarAdm2" layoutX="674.0" layoutY="848.0" onMouseClicked="#ClIzmTar3" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Изменить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pDellTarAdm2" layoutX="756.0" layoutY="848.0" onMouseClicked="#ClDellTar3" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="11.0" layoutY="4.0" text="Удалить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAddTarAdm3" layoutX="593.0" layoutY="1120.0" onMouseClicked="#ClAddTar4" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="7.0" layoutY="4.0" text="Добавить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pIzmTarAdm3" layoutX="674.0" layoutY="1120.0" onMouseClicked="#ClIzmTar4" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Изменить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pDellTarAdm3" layoutX="756.0" layoutY="1120.0" onMouseClicked="#ClDellTar4" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="11.0" layoutY="4.0" text="Удалить">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PAddTarW1" layoutX="253.0" layoutY="114.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="83.0" layoutY="2.0" text="Добавление тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResAdd1" layoutX="14.0" layoutY="47.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarAdd1" layoutX="14.0" layoutY="91.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrAdd1" layoutX="169.0" layoutY="47.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabAdd1" layoutX="169.0" layoutY="91.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="44.0" layoutY="144.0" onMouseClicked="#ClAddTarW1" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="3.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="204.0" layoutY="144.0" onMouseClicked="#ClBackTarW1" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="13.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children></Pane>
+                  <Pane fx:id="PIzmTarW1" layoutX="262.0" layoutY="118.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="91.0" layoutY="2.0" text="Изменение тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResIzm1" layoutX="7.0" layoutY="51.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarIzm1" layoutX="7.0" layoutY="91.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrIzm1" layoutX="176.0" layoutY="51.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabIzm1" layoutX="176.0" layoutY="91.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="39.0" layoutY="141.0" onMouseClicked="#ClSohrIzmTarW1" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="6.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="208.0" layoutY="141.0" onMouseClicked="#ClBackIzmTarW1" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="16.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PAddTarW2" layoutX="262.0" layoutY="390.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="87.0" layoutY="2.0" text="Добавление тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResAdd2" layoutX="13.0" layoutY="47.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarAdd2" layoutX="13.0" layoutY="90.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrAdd2" layoutX="171.0" layoutY="47.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabAdd2" layoutX="171.0" layoutY="90.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="48.0" layoutY="141.0" onMouseClicked="#ClAddTarW2" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="3.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="206.0" layoutY="141.0" onMouseClicked="#ClBackTarW2" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="13.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PIzmTarW2" layoutX="262.0" layoutY="390.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="91.0" layoutY="2.0" text="Изменение тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResIzm2" layoutX="7.0" layoutY="51.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarIzm2" layoutX="7.0" layoutY="91.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrIzm2" layoutX="176.0" layoutY="51.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabIzm2" layoutX="176.0" layoutY="91.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="39.0" layoutY="141.0" onMouseClicked="#ClSohrIzmTarW2" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="6.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="208.0" layoutY="141.0" onMouseClicked="#ClBackIzmTarW2" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="16.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PAddTarW3" layoutX="262.0" layoutY="660.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="92.0" layoutY="2.0" text="Добавление тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResAdd3" layoutX="13.0" layoutY="47.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarAdd3" layoutX="13.0" layoutY="90.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrAdd3" layoutX="171.0" layoutY="47.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabAdd3" layoutX="171.0" layoutY="90.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="48.0" layoutY="141.0" onMouseClicked="#ClAddTarW3" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="3.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="206.0" layoutY="141.0" onMouseClicked="#ClBackTarW3" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="13.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PIzmTarW3" layoutX="262.0" layoutY="660.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="91.0" layoutY="2.0" text="Изменение тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResIzm3" layoutX="7.0" layoutY="51.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarIzm3" layoutX="7.0" layoutY="91.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrIzm3" layoutX="176.0" layoutY="51.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabIzm3" layoutX="176.0" layoutY="91.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="39.0" layoutY="141.0" onMouseClicked="#ClSohrIzmTarW3" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="6.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="208.0" layoutY="141.0" onMouseClicked="#ClBackIzmTarW3" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="16.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PAddTarW4" layoutX="262.0" layoutY="935.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="92.0" layoutY="2.0" text="Добавление тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResAdd4" layoutX="13.0" layoutY="47.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarAdd4" layoutX="13.0" layoutY="90.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrAdd4" layoutX="171.0" layoutY="47.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabAdd4" layoutX="171.0" layoutY="90.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="48.0" layoutY="141.0" onMouseClicked="#ClAddTarW4" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="3.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="206.0" layoutY="141.0" onMouseClicked="#ClBackTarW4" prefHeight="25.0" prefWidth="78.0">
+                           <children>
+                              <Label layoutX="13.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="PIzmTarW4" layoutX="262.0" layoutY="940.0" prefHeight="180.0" prefWidth="332.0" style="-fx-background-color: #909CE4; -fx-border-color: black;" visible="false">
+                     <children>
+                        <Label layoutX="91.0" layoutY="2.0" text="Изменение тарифа" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfResIzm4" layoutX="7.0" layoutY="51.0" promptText="Ресурс" />
+                        <TextField fx:id="tfTarIzm4" layoutX="7.0" layoutY="91.0" promptText="Тариф" />
+                        <TextField fx:id="tfNrIzm4" layoutX="176.0" layoutY="51.0" promptText="Нормативно правового акта" />
+                        <TextField fx:id="tfResSnabIzm4" layoutX="176.0" layoutY="91.0" promptText="Ресурсоснабжающее предприятие" />
+                        <Pane fx:id="pExitSpZNAdm" layoutX="39.0" layoutY="141.0" onMouseClicked="#ClSohrIzmTarW4" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="6.0" layoutY="3.0" text="Сохранить">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pExitSpZNAdm" layoutX="208.0" layoutY="141.0" onMouseClicked="#ClBackIzmTarW4" prefHeight="25.0" prefWidth="84.0">
+                           <children>
+                              <Label layoutX="16.0" layoutY="3.0" text="Отмена">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="btnExitTarAdm" layoutX="14.0" layoutY="13.0" onMouseClicked="#BtnClTar" prefHeight="27.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="12.0" layoutY="5.0" text="Вернуться">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Pane fx:id="PNews" layoutY="-4.0" prefHeight="644.0" prefWidth="852.0" style="-fx-background-color: #909CE4;" visible="false">
+            <children>
+                <Label layoutX="374.0" layoutY="14.0" text="НОВОСТИ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane fx:id="btnClNewsAdm" layoutX="21.0" layoutY="17.0" onMouseClicked="#BtnClNews" prefHeight="25.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="12.0" layoutY="4.0" text="Вернуться">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="22.0" layoutY="84.0" prefHeight="500.0" prefWidth="809.0" style="-fx-background-color: #71c0c9; -fx-border-color: black;">
+               <children>
+                      <TableView fx:id="tableN" layoutX="15.0" layoutY="35.0" prefHeight="402.0" prefWidth="779.0">
+                          <columns>
+                              <TableColumn fx:id="CodeID" prefWidth="45.0" text="№" />
+                              <TableColumn fx:id="TbNews" prefWidth="548.0" text="Новость" />
+                              <TableColumn fx:id="TbDate" prefWidth="185.0" text="Дата" />
+                          </columns>
+                      </TableView>
+                  <Pane fx:id="pIzmNewsAdm" layoutX="615.0" layoutY="455.0" onMouseClicked="#ClickIzm" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="9.0" layoutY="6.0" text="Изменить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAddNewsAdm" layoutX="520.0" layoutY="455.0" onMouseClicked="#ClickAdd" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="9.0" layoutY="7.0" text="Добавить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pDellNewsAdm" layoutX="710.0" layoutY="455.0" onMouseClicked="#ClickDell" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="6.0" text="Удалить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+                <ScrollPane fx:id="PNewsN" layoutX="-1.0" prefHeight="644.0" prefWidth="852.0" visible="false">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1126.0" prefWidth="834.0" style="-fx-background-color: #909CE4;">
+                            <children>
+                                <Label fx:id="nameNews" layoutX="403.0" layoutY="18.0" text="Название новости" textFill="WHITE" />
+                                <Label fx:id="lbOpis" alignment="TOP_LEFT" layoutX="390.0" layoutY="70.0" prefHeight="788.0" prefWidth="430.0" text="Описание новости" textFill="WHITE" wrapText="true" />
+                                <ImageView fx:id="imageScreen" fitHeight="227.0" fitWidth="246.0" layoutX="31.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../photo1.jpg" />
+                           </image></ImageView>
+                        <Pane fx:id="btnCloseNewsNAdm" layoutX="14.0" layoutY="13.0" onMouseClicked="#btnCloseNews" prefHeight="27.0" prefWidth="85.0">
+                           <children>
+                              <Label layoutX="15.0" layoutY="5.0" text="Вернуться">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </ScrollPane>
+            <Pane fx:id="IzmPane" layoutX="118.0" layoutY="99.0" prefHeight="402.0" prefWidth="612.0" style="-fx-background-color: #909CE4;" visible="false">
+               <children>
+                  <TextField fx:id="tfNews" alignment="TOP_LEFT" layoutX="30.0" layoutY="52.0" prefHeight="101.0" prefWidth="553.0" promptText="Новость" />
+                  <TextField fx:id="tfDate" layoutX="30.0" layoutY="316.0" promptText="Дата" />
+                  <TextField fx:id="tfOpis" alignment="TOP_LEFT" layoutX="30.0" layoutY="168.0" prefHeight="101.0" prefWidth="553.0" promptText="Описание" />
+                  <TextField fx:id="tfPict" layoutX="30.0" layoutY="282.0" promptText="Название картинки" />
+                  <Pane fx:id="PSohr" layoutX="146.0" layoutY="353.0" onMouseClicked="#ClickSohr" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="7.0" text="Сохранить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pExitSpZNAdm" layoutX="390.0" layoutY="353.0" onMouseClicked="#ClickBackIzm" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="17.0" layoutY="7.0" text="Отмена">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label fx:id="wtextIzm" layoutX="292.0" layoutY="284.0" textFill="RED" />
+                  <Label layoutX="186.0" layoutY="14.0" text="ИЗМЕНЕНИЕ НОВОСТИ" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="AddPane" layoutX="117.0" layoutY="109.0" prefHeight="402.0" prefWidth="612.0" style="-fx-background-color: #909CE4;" visible="false">
+               <children>
+                  <TextField fx:id="tfNewsAd" alignment="TOP_LEFT" layoutX="30.0" layoutY="52.0" prefHeight="101.0" prefWidth="553.0" promptText="Новость" />
+                  <TextField fx:id="tfDateAd" layoutX="30.0" layoutY="316.0" promptText="Дата" />
+                  <TextField fx:id="tfOpisAd" alignment="TOP_LEFT" layoutX="30.0" layoutY="168.0" prefHeight="101.0" prefWidth="553.0" promptText="Описание" />
+                  <TextField fx:id="tfPictAd" layoutX="30.0" layoutY="282.0" promptText="Название картинки" />
+                  <Pane fx:id="PSohrAd" layoutX="146.0" layoutY="353.0" onMouseClicked="#ClickSohrAdd" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="6.0" text="Сохранить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="ClsPAd" layoutX="390.0" layoutY="353.0" onMouseClicked="#ClickBackAdd" prefHeight="31.0" prefWidth="82.0">
+                     <children>
+                        <Label layoutX="15.0" layoutY="7.0" text="Отмена">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label fx:id="wtextadd" layoutX="292.0" layoutY="284.0" textFill="RED" />
+                  <Label layoutX="179.0" layoutY="14.0" text="ДОБАВЛЕНИЕ НОВОСТИ" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            </children></Pane>
+      <Pane fx:id="PSpZ1" layoutY="-5.0" prefHeight="644.0" prefWidth="851.0" style="-fx-background-color: #909CE4;" visible="false">
+         <children>
+            <TableView fx:id="tableSpZ" layoutX="13.0" layoutY="114.0" prefHeight="435.0" prefWidth="826.0">
+              <columns>
+                <TableColumn fx:id="IDSpZ" prefWidth="27.0" text="ID" />
+                <TableColumn fx:id="ClAdrEmSpZ" prefWidth="51.0" text="Адрес E-mail" />
+                  <TableColumn fx:id="ClNameSpZ" prefWidth="64.0" text="Имя" />
+                  <TableColumn fx:id="ClPatrSpZ" prefWidth="62.0" text="Отчество" />
+                  <TableColumn fx:id="ClFamSpZ" prefWidth="65.0" text="Фамилия" />
+                  <TableColumn fx:id="ClPSpZ" prefWidth="30.0" text="Пол" />
+                  <TableColumn fx:id="ClDatSpZ" prefWidth="51.0" text="Дата рождения" />
+                  <TableColumn fx:id="ClTelSpZ" prefWidth="47.0" text="Телефон" />
+                  <TableColumn fx:id="ClCitySpZ" minWidth="0.0" prefWidth="33.0" text="Город" />
+                  <TableColumn fx:id="ClStSpZ" prefWidth="46.0" text="Улица" />
+                  <TableColumn fx:id="ClOblSpZ" prefWidth="44.0" text="Область/Край" />
+                  <TableColumn fx:id="ClRegSpZ" prefWidth="44.0" text="Район" />
+                  <TableColumn fx:id="ClNumHSpZ" prefWidth="64.0" text="Номер дома" />
+                  <TableColumn fx:id="ClNumKvSpZ" prefWidth="78.0" text="Номер квартиры" />
+                  <TableColumn fx:id="ClNumLCSpZ" prefWidth="119.0" text="Номер лицевого счета" />
+              </columns>
+            </TableView>
+            <Label layoutX="326.0" layoutY="9.0" text="Список жильцов" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Pane fx:id="btnClDellSpZAdm" layoutX="757.0" layoutY="560.0" onMouseClicked="#ClDellSpZ" prefHeight="31.0" prefWidth="82.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" text="Удалить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="btnClIzmSpZAdm" layoutX="650.0" layoutY="560.0" onMouseClicked="#ClIzmSpZ" prefHeight="31.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="5.0" text="Изменить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="PIzmSpZW" layoutX="218.0" layoutY="144.0" prefHeight="391.0" prefWidth="432.0" style="-fx-background-color: #909CE4;" visible="false">
+               <children>
+                  <Label layoutX="93.0" layoutY="14.0" text="Изменение данных жильца" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfNameSpZ" layoutX="14.0" layoutY="87.0" promptText="Имя" />
+                  <TextField fx:id="tfCtSpZ" layoutX="269.0" layoutY="87.0" promptText="Город" />
+                  <TextField fx:id="tfOtchSpZ" layoutX="14.0" layoutY="124.0" promptText="Отчество" />
+                  <TextField fx:id="tfStSpZ" layoutX="269.0" layoutY="124.0" promptText="Улица" />
+                  <TextField fx:id="tfFamSpZ" layoutX="14.0" layoutY="161.0" promptText="Фамилия" />
+                  <TextField fx:id="tfRaySpZ" layoutX="269.0" layoutY="161.0" promptText="Район" />
+                  <TextField fx:id="tfOblSpZ" layoutX="269.0" layoutY="197.0" promptText="Область/Край" />
+                  <TextField fx:id="tfDRSpZ" layoutX="14.0" layoutY="234.0" promptText="Дата рождения" />
+                  <TextField fx:id="tfNHSpZ" layoutX="269.0" layoutY="234.0" promptText="Номер дома" />
+                  <TextField fx:id="tfTelSpZ" layoutX="14.0" layoutY="271.0" promptText="Телефон" />
+                  <TextField fx:id="tfNKSpZ" layoutX="269.0" layoutY="271.0" promptText="Номер квартиры" />
+                  <TextField fx:id="tfEMSpZ" layoutX="14.0" layoutY="307.0" promptText="Адрес E-Mail" />
+                  <TextField fx:id="tfNLCSpZ" layoutX="269.0" layoutY="307.0" promptText="Номер лицевого счета" />
+                  <TextField fx:id="tfPolSpZ" layoutX="14.0" layoutY="197.0" promptText="Пол" />
+                  <Pane fx:id="pExitSpZNAdm" layoutX="78.0" layoutY="346.0" onMouseClicked="#ClSohrIzmSpZ" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Сохранить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pExitSpZNAdm" layoutX="269.0" layoutY="346.0" onMouseClicked="#ClBackIzmSpZ" prefHeight="31.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="17.0" layoutY="4.0" text="Отмена">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane fx:id="btnCloseSpZAdm" layoutX="14.0" layoutY="11.0" onMouseClicked="#btnCloseSpZ" prefHeight="31.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="12.0" layoutY="6.0" text="Вернуться">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="PSpisokZ" prefHeight="640.0" prefWidth="852.0" style="-fx-background-color: #909CE4;" visible="false">
+         <children>
+            <Label layoutX="264.0" layoutY="7.0" text="Список заявок на оказание услуг" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableSpisZ" layoutX="17.0" layoutY="75.0" prefHeight="462.0" prefWidth="817.0">
+              <columns>
+                <TableColumn fx:id="IDSpisZ" prefWidth="38.0" text="ID" />
+                <TableColumn fx:id="ClFIOSpisZ" prefWidth="112.0" text="ФИО" />
+                  <TableColumn fx:id="ClNumHomeSpisZ" prefWidth="86.0" text="Номер дома" />
+                  <TableColumn fx:id="ClNumKvSpisZ" prefWidth="109.0" text="Номер квартиры" />
+                  <TableColumn fx:id="ClNumTelSpisZ" prefWidth="73.0" text="Телефон" />
+                  <TableColumn fx:id="ClVidUslSpisZ" prefWidth="78.0" text="Вид услуги" />
+                  <TableColumn fx:id="ClPrimSpisZ" prefWidth="90.0" text="Примечание" />
+                  <TableColumn fx:id="ClDatZSpisZ" prefWidth="103.0" text="Дата заявки" />
+                  <TableColumn fx:id="ClStatusSpisZ" prefWidth="127.0" text="Статус" />
+              </columns>
+            </TableView>
+            <Pane fx:id="pExitSpZNAdm" layoutX="749.0" layoutY="552.0" onMouseClicked="#ClDellSpisZ" prefHeight="27.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="4.0" text="Удалить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="pExitSpZNAdm" layoutX="652.0" layoutY="552.0" onMouseClicked="#ClIzmSpisZ" prefHeight="27.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="9.0" layoutY="4.0" text="Изменить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="pExitSpZNAdm" layoutX="555.0" layoutY="552.0" onMouseClicked="#ClAddSpisZ" prefHeight="27.0" prefWidth="85.0">
+               <children>
+                  <Label layoutX="9.0" layoutY="4.0" text="Добавить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="PAddSpisZ" layoutX="213.0" layoutY="127.0" prefHeight="277.0" prefWidth="432.0" style="-fx-background-color: #909CE4;" visible="false">
+               <children>
+                  <Label layoutX="113.0" layoutY="14.0" text="Составление заявки" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="DtPick" layoutX="269.0" layoutY="60.0" prefHeight="25.0" prefWidth="149.0" promptText="Дата заявки" />
+                  <TextField fx:id="tfFIO" layoutX="22.0" layoutY="60.0" promptText="ФИО" />
+                  <TextField fx:id="tfNumHome" layoutX="22.0" layoutY="99.0" promptText="Номер дома" />
+                  <TextField fx:id="tfNumKv" layoutX="22.0" layoutY="138.0" promptText="Номер квартиры" />
+                  <TextField fx:id="tfNumTel" layoutX="22.0" layoutY="178.0" promptText="Номер телефона" />
+                  <TextField fx:id="tfPrim" layoutX="269.0" layoutY="99.0" prefHeight="25.0" prefWidth="149.0" promptText="Примечание" />
+                  <ComboBox fx:id="cmUsl" layoutX="269.0" layoutY="138.0" prefWidth="150.0" promptText="Вид услуги" />
+                  <ComboBox fx:id="cmStatus" layoutX="269.0" layoutY="178.0" prefWidth="150.0" promptText="Статус" />
+                  <Pane fx:id="pExitSpZNAdm" layoutX="269.0" layoutY="238.0" onMouseClicked="#ClBackSpisZ" prefHeight="25.0" prefWidth="71.0">
+                     <children>
+                        <Label layoutX="10.0" layoutY="3.0" text="Отмена">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pExitSpZNAdm" layoutX="86.0" layoutY="238.0" onMouseClicked="#ClSohrAddSpisZ" prefHeight="25.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="3.0" text="Отправить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></Pane>
+            <Pane fx:id="pExitSpZNAdm" layoutX="17.0" layoutY="10.0" onMouseClicked="#ClVernSpisZ" prefHeight="25.0" prefWidth="73.0">
+               <children>
+                  <Label layoutX="6.0" layoutY="4.0" text="Вернуться">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="PIzmSpisZW" layoutX="218.0" layoutY="200.0" prefHeight="277.0" prefWidth="432.0" style="-fx-background-color: #909CE4;" visible="false">
+               <children>
+                  <Label layoutX="120.0" layoutY="14.0" text="Изменение заявки" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfFIOIzm" layoutX="14.0" layoutY="67.0" promptText="ФИО" />
+                  <TextField fx:id="tfNumHomeIzm" layoutX="14.0" layoutY="107.0" promptText="Номер дома" />
+                  <TextField fx:id="tfNumKvIzm" layoutX="14.0" layoutY="145.0" promptText="Номер квартиры" />
+                  <TextField fx:id="tfNumTelIzm" layoutX="14.0" layoutY="182.0" promptText="Номер телефона" />
+                  <TextField fx:id="tfPrimIzm" layoutX="269.0" layoutY="107.0" promptText="Примечание" />
+                  <DatePicker fx:id="DtPickIzm" layoutX="269.0" layoutY="67.0" prefHeight="25.0" prefWidth="149.0" promptText="Дата заявки" />
+                  <ComboBox fx:id="cmUslIzm" layoutX="268.0" layoutY="145.0" prefWidth="150.0" promptText="Вид услуги" />
+                  <ComboBox fx:id="cmStatusIzm" layoutX="269.0" layoutY="182.0" prefWidth="150.0" promptText="Статус" />
+                  <Pane fx:id="pExitSpZNAdm" layoutX="78.0" layoutY="236.0" onMouseClicked="#ClSohrIzmSpisZ" prefHeight="27.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="6.0" layoutY="4.0" text="Сохранить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+                  <Pane fx:id="pExitSpZNAdm" layoutX="268.0" layoutY="236.0" onMouseClicked="#ClBackIzmSpisZ" prefHeight="27.0" prefWidth="85.0">
+                     <children>
+                        <Label layoutX="17.0" layoutY="4.0" text="Отмена">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children></Pane>
+    </children>
+</AnchorPane>

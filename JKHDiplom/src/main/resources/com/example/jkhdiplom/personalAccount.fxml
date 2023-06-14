@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pLK" prefHeight="587.0" prefWidth="600.0" style="-fx-background-color: #909CE4;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jkhdiplom.PersonalAccount">
+   <children>
+      <Label layoutX="226.0" layoutY="1.0" text="Личный кабинет" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPriv" layoutX="247.0" layoutY="42.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="95.0" text="Имя:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="125.0" text="Отчество:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="38.0" layoutY="155.0" text="Фамилия:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="215.0" prefHeight="41.0" prefWidth="82.0" text="Дата рождения:" textAlignment="RIGHT" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="185.0" text="Пол:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="265.0" text="Телефон:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="426.0" text="Город:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="486.0" text="Улица:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="6.0" layoutY="395.0" text="Область/край:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="456.0" text="Район:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="51.0" layoutY="295.0" prefHeight="41.0" prefWidth="54.0" text="Номер дома:" textAlignment="RIGHT" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="31.0" layoutY="345.0" prefHeight="41.0" prefWidth="74.0" text="Номер квартиры:" textAlignment="RIGHT" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="4.0" layoutY="553.0" prefHeight="27.0" prefWidth="168.0" text="Номер лицевого счета:" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbNLC" layoutX="179.0" layoutY="558.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbSt" layoutX="113.0" layoutY="488.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbRay" layoutX="113.0" layoutY="458.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbCt" layoutX="113.0" layoutY="428.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbObl" layoutX="113.0" layoutY="397.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbNK" layoutX="113.0" layoutY="366.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbNH" layoutX="113.0" layoutY="316.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbTel" layoutX="113.0" layoutY="267.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbDr" layoutX="113.0" layoutY="236.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbPol" layoutX="113.0" layoutY="187.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbFam" layoutX="113.0" layoutY="157.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbOtch" layoutX="113.0" layoutY="127.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="lbName" layoutX="113.0" layoutY="97.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="13.0" layoutY="514.0" text="Адрес E-Mail:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbEMail" layoutX="113.0" layoutY="516.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <CheckBox fx:id="chSmPass" layoutX="467.0" layoutY="117.0" mnemonicParsing="false" onAction="#CBPass" text="Смена пароля" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></CheckBox>
+      <TextField fx:id="tfPass" layoutX="437.0" layoutY="457.0" promptText="Password" style="-fx-border-color: black;" visible="false" />
+      <TextField fx:id="tfRePass" layoutX="437.0" layoutY="497.0" promptText="Re-Enter password" style="-fx-border-color: black;" visible="false" />
+      <Label fx:id="lbPassSm" layoutX="374.0" layoutY="461.0" text="Пароль:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbRePassSm" layoutX="320.0" layoutY="500.0" text="Повтор пароля:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Pane fx:id="pPodtv" layoutX="487.0" layoutY="545.0" onMouseClicked="#ClPodtv" prefHeight="27.0" prefWidth="99.0" visible="false">
+         <children>
+            <Label layoutX="4.0" layoutY="4.0" text="Подтвердить">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="lbErP" layoutX="416.0" layoutY="528.0" text="Label" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Pane fx:id="pOtprZayv" layoutX="197.0" layoutY="148.0" prefHeight="274.0" prefWidth="392.0" style="-fx-background-color: #909CE4; -fx-border-color: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-border-width: 3;" visible="false">
+         <children>
+            <Label layoutX="117.0" layoutY="14.0" text="Составление заявки" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfFIO" layoutX="14.0" layoutY="51.0" promptText="ФИО" style="-fx-border-color: black;" />
+            <TextField fx:id="tfNumHome" layoutX="14.0" layoutY="91.0" promptText="Номер дома" style="-fx-border-color: black;" />
+            <TextField fx:id="tfNumKv" layoutX="14.0" layoutY="131.0" promptText="Номер квартиры" style="-fx-border-color: black;" />
+            <TextField fx:id="tfNumTel" layoutX="14.0" layoutY="170.0" promptText="Номер телефона" style="-fx-border-color: black;" />
+            <TextField fx:id="tfPrim" alignment="TOP_LEFT" layoutX="228.0" layoutY="91.0" prefHeight="66.0" prefWidth="149.0" promptText="Примечание" style="-fx-border-color: black;" />
+            <ComboBox fx:id="cmUsl" layoutX="228.0" layoutY="170.0" prefWidth="150.0" promptText="Вид услуги" style="-fx-border-color: black;" />
+            <Pane fx:id="pOtmenaLK" layoutX="311.0" layoutY="235.0" onMouseClicked="#ClBackOtrZayv" prefHeight="25.0" prefWidth="68.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="3.0" text="Отмена">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pOtprLK" layoutX="215.0" layoutY="235.0" onMouseClicked="#ClSohrOtprZayv" prefHeight="25.0" prefWidth="82.0">
+               <children>
+                  <Label layoutX="5.0" layoutY="3.0" text="Отправить">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Label fx:id="lbError" layoutX="14.0" layoutY="212.0" text="Label" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="DtPick" layoutX="228.0" layoutY="51.0" prefHeight="25.0" prefWidth="149.0" promptText="Дата заявки" style="-fx-border-color: black;" />
+         </children></Pane>
+      <CheckBox fx:id="chOtprZayv" layoutX="374.0" layoutY="95.0" mnemonicParsing="false" onAction="#OtprZayv" text="Отправить заявку на услугу" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <Pane fx:id="pExitLK" layoutX="14.0" layoutY="7.0" onMouseClicked="#ClExit" prefHeight="25.0" prefWidth="68.0">
+         <children>
+            <Label layoutX="12.0" layoutY="3.0" text="Выйти">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

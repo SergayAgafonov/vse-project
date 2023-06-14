@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="PGlav" prefHeight="539.0" prefWidth="820.0" style="-fx-background-color: #909CE4;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jkhdiplom.GlavnayaController">
+    <children>
+      <Label layoutX="330.0" layoutY="14.0" text="ГЛАВНОЕ ОКНО" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+        <Pane id="p" fx:id="p" layoutX="29.0" layoutY="338.0" onMouseClicked="#ClickP1" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" text="ТАРИФЫ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane id="p3" fx:id="p3" layoutX="299.0" layoutY="338.0" onMouseClicked="#ClickP3" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="216.0" text="ПРАВИЛА ЗАСЕЛЕНИЯ" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane id="p4" fx:id="p4" layoutX="29.0" layoutY="85.0" onMouseClicked="#ClickP4" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="120.0" text="НОВОСТИ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font></Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane fx:id="PReg" layoutX="570.0" layoutY="85.0" onMouseClicked="#ClickPReg" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="15.0" layoutY="9.0" prefHeight="35.0" prefWidth="140.0" text="Регистрация" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="PAuth" layoutX="570.0" layoutY="338.0" onMouseClicked="#ClickPAuth" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="15.0" layoutY="9.0" prefHeight="35.0" prefWidth="140.0" text="Авторизация" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children></Pane>
+        <Pane id="p5" fx:id="p5" layoutX="299.0" layoutY="85.0" onMouseClicked="#ClickP5" prefHeight="238.0" prefWidth="253.0">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="216.0" text="ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <Pane layoutX="13.0" layoutY="197.0" prefHeight="3.0" prefWidth="227.0" style="-fx-background-color: white;" />
+            <Label layoutX="157.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+        <ScrollPane fx:id="PDopUsl" layoutX="1.0" prefHeight="629.0" prefWidth="850.0" style="-fx-background-color: #184562;" visible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1155.0" prefWidth="849.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Pane fx:id="PaneDU1" layoutX="66.0" layoutY="57.0" onMouseClicked="#ClickUslP1" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="117.0" text="Все работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="125.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU2" layoutX="311.0" layoutY="57.0" onMouseClicked="#ClickUslP2" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="200.0" text="Сантехнические работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="125.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU3" layoutX="567.0" layoutY="57.0" onMouseClicked="#ClickUslP3" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="196.0" text="Плотницкие работы" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="125.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Pane fx:id="PaneDU4" layoutX="66.0" layoutY="325.0" onMouseClicked="#ClickUslP4" prefHeight="238.0" prefWidth="216.0">
+                            <children>
+                                <Label layoutX="14.0" layoutY="14.0" prefHeight="65.0" prefWidth="213.0" text="Клининговые услуги" textFill="WHITE" wrapText="true">
+                                    <font>
+                                        <Font name="System Bold" size="21.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="8.0" layoutY="197.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                        <Label layoutX="125.0" layoutY="204.0" text="Посмотреть" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                            </children></Pane>
+                        <Label layoutX="290.0" layoutY="651.0" text="Дополнительные услуги" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="21.0" />
+                            </font></Label>
+                  <Label layoutX="378.0" layoutY="11.0" text="УСЛУГИ" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="27.0" layoutY="707.0" prefHeight="419.0" prefWidth="779.0" style="-fx-background-color: #71c0c9; -fx-border-color: black; -fx-border-width: 1;">
+                     <children>
+                        <TableView fx:id="tableUsl" layoutX="14.0" layoutY="14.0" prefHeight="360.0" prefWidth="751.0">
+                          <columns>
+                            <TableColumn fx:id="UsID" prefWidth="43.0" text="ID" />
+                            <TableColumn fx:id="Usluga" prefWidth="447.0" text="Услуга" />
+                              <TableColumn fx:id="Price" prefWidth="260.0" text="Цена" />
+                          </columns>
+                        </TableView>
+                     </children></Pane>
+                  <Pane fx:id="BtnClDopUsl" layoutX="14.0" layoutY="11.0" onMouseClicked="#ClVernUsl" prefHeight="31.0" prefWidth="70.0">
+                     <children>
+                        <Label layoutX="5.0" layoutY="6.0" text="Вернуться">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+        <ScrollPane fx:id="PPrZas" layoutY="-4.0" prefHeight="635.0" prefWidth="851.0" style="-fx-background-color: #909CE4;" visible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1115.0" prefWidth="836.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Label layoutX="116.0" layoutY="13.0" text="Памятка для будущих собственников жилых помещений (квартир)">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="62.0" prefHeight="31.0" prefWidth="784.0" text="1. Осмотры квартир необходимы для выявления дефектов в жилье и их устранения (если таковые имеются)." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="93.0" prefHeight="57.0" prefWidth="788.0" text="2. В случае, если дефекты обнаружены, то их необходимо отразить в Акте осмотра и обратиться к Застройщику для их устранения в установленный регламентом период." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="150.0" prefHeight="71.0" prefWidth="793.0" text="3. В случаи если при осмотре квартиры дефекты не выявлены, замечания отсутствуют, то необходимо со своим экземпляром Акта осмотра прийти в офис продаж для составления Акта приема-передачи квартиры в собственность." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="221.0" prefHeight="65.0" prefWidth="786.0" text="4. После получения Акта приема-передачи квартиры в собственность необходимо сделать 2 (две) копии:один экземпляр - Застройщику для получения ключей, второй экземпляр - для передачи в Управляющую компанию для оформления лицевого счета." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="286.0" prefHeight="126.0" prefWidth="789.0" text="5. В течении трех рабочих дней с момента составления Акта приема-передачи квартиры в собственность для регистрации права собственности на недвижимость необходимо предоставить в Многофункциональный центр «Мои документы» следующий пакет документов:1) Акт приема-передачи квартиры в собственность.2) Договор (долевого участия, уступки и т.д.).3) Заявление о государственном кадастровом учете недвижимого имущества и (или) государственной регистрации прав на недвижимое имущество.4) Чек об оплате госпошлины.5) Документ удостоверяющий личность (паспорт гражданина РФ)." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="412.0" prefHeight="108.0" prefWidth="791.0" text="6. После передачи пакета документов для государственной регистрации недвижимости необходимо с копиями Актов приема-передачи квартиры в собственность и описью, подтверждающей сдачу документов на регистрацию, а также документом, удостоверяющим личность, прийти к Застройщику для получения ключей от квартиры. Лицо, которое выдает ключи от вашего жилья, находится в том же строении, где вы приобрели квартиру, или в офисе, адрес которого вы можете узнать у Застройщика." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font></Label>
+                        <Label layoutX="23.0" layoutY="520.0" prefHeight="227.0" prefWidth="785.0" text="7. После получения ключей от квартиры, вам необходимо обратиться в вашу Управляющую компанию и предоставить для заключения Договора управления между вами и УК копию документов, удостоверяющих личность, на каждого собственника (подлинник иметь при себе) и копию Акта приема-передачи квартиры в собственность. Управляющая компания должна выдать вам: паспорта на индивидуальные прибора учета по услугам ХВС, ГВС, электроснабжение (газ). Если приборы учета не опломбированы и находятся в вашей квартире, ВАМ НЕОБХОДИМО оставить заявку на опломбировку ИПУ по контактному телефону Управляющей компании и составление Акта ввода узла учета в эксплуатацию. Обращаем ВНИМАНИЕ, что до составления Акта ввода узла учета в эксплуатацию начисление платы за коммунальную услугу производится по НОРМАТИВУ. УК выдает один бесплатный ключ от входной двери в подъезд (от домофона) на одну квартиру, все дополнительные ключи можно приобрести за дополнительную плату (стоимость уточняйте). Если ключей от домофона нет в наличии у УК, они должны вас проинформировать, где их можно получить." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="747.0" prefHeight="87.0" prefWidth="777.0" text="8. После получения из Многофункционального центра «Мои документы» выписки из Единого Государственного реестра недвижимости (ЕГРН) ВАМ необходимо предоставить её копию в Управляющую компанию. В дальнейшем необходимо предоставить копию выписки из ЕГРН в ресурсоснабжающие организации (РСО)." wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="834.0" prefHeight="71.0" prefWidth="779.0" text="9. ПОКАЗАНИЯ по вашим индивидуальным приборам учета (ИПУ) необходимо предоставлять ЕЖЕМЕСЯЧНО в период с 15 до 25 числа (независимо от того, проживаете вы в квартире или нет) в РСО, предоставляющую соответствующую коммунальную услугу. " wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="925.0" prefHeight="20.0" prefWidth="315.0" text="С уважением, Ваша Управляющая компания.">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                  <Pane fx:id="btnPVernZP" layoutX="14.0" layoutY="14.0" onMouseClicked="#BtnClPrZas" prefHeight="25.0" prefWidth="76.0">
+                     <children>
+                        <Label layoutX="8.0" layoutY="4.0" text="Вернуться">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <ScrollPane fx:id="PTar" layoutX="-1.0" layoutY="-8.0" prefHeight="642.0" prefWidth="851.0" style="-fx-background-color: #909CE4;" visible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1151.0" prefWidth="836.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Pane fx:id="TPane1" layoutX="12.0" layoutY="60.0" prefHeight="43.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="363.0" layoutY="12.0" text="ОТОПЛЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane3" layoutX="14.0" layoutY="605.0" prefHeight="43.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="331.0" layoutY="12.0" text="ЭЛЕКТРОСНАБЖЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane4" layoutX="14.0" layoutY="879.0" prefHeight="43.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="309.0" layoutY="12.0" text="ГОРЯЧЕЕ ВОДОСНАБЖЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children></Pane>
+                        <Pane fx:id="TPane2" layoutX="14.0" layoutY="332.0" prefHeight="43.0" prefWidth="813.0">
+                            <children>
+                                <Label layoutX="228.0" layoutY="12.0" text="ХОЛОДНОЕ ВОДОСНАБЖЕНИЕ И ВОДООТВЕДЕНИЕ">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Label layoutX="385.0" layoutY="14.0" text="ТАРИФЫ" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="16.0" />
+                            </font>
+                        </Label>
+                  <TableView fx:id="tableOtop" layoutX="12.0" layoutY="103.0" prefHeight="200.0" prefWidth="813.0">
+                    <columns>
+                      <TableColumn fx:id="OtopID" prefWidth="38.0" text="№" />
+                      <TableColumn fx:id="OtopRes" prefWidth="114.0" text="Ресурс" />
+                        <TableColumn fx:id="OtopTar" prefWidth="145.0" text="Тариф" />
+                        <TableColumn fx:id="OtopNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                        <TableColumn fx:id="OtopResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="tableHol" layoutX="14.0" layoutY="375.0" prefHeight="200.0" prefWidth="813.0">
+                     <columns>
+                        <TableColumn fx:id="HolID" prefWidth="38.0" text="№" />
+                        <TableColumn fx:id="HolRes" prefWidth="114.0" text="Ресурс" />
+                        <TableColumn fx:id="HolTar" prefWidth="145.0" text="Тариф" />
+                        <TableColumn fx:id="HolNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                        <TableColumn fx:id="HolResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="tableElectr" layoutX="14.0" layoutY="648.0" prefHeight="200.0" prefWidth="813.0">
+                     <columns>
+                        <TableColumn fx:id="ElectID" prefWidth="38.0" text="№" />
+                        <TableColumn fx:id="ElectRes" prefWidth="114.0" text="Ресурс" />
+                        <TableColumn fx:id="ElectTar" prefWidth="145.0" text="Тариф" />
+                        <TableColumn fx:id="ElectNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                        <TableColumn fx:id="ElectResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="tableGor" layoutX="14.0" layoutY="922.0" prefHeight="200.0" prefWidth="813.0">
+                     <columns>
+                        <TableColumn fx:id="GorID" prefWidth="38.0" text="№" />
+                        <TableColumn fx:id="GorRes" prefWidth="114.0" text="Ресурс" />
+                        <TableColumn fx:id="GorTar" prefWidth="145.0" text="Тариф" />
+                        <TableColumn fx:id="GorNorm" prefWidth="238.0" text="Нормативно правового акта" />
+                        <TableColumn fx:id="GorResP" prefWidth="277.0" text="Ресурсоснабжающее предприятие" />
+                     </columns>
+                  </TableView>
+                  <Pane fx:id="btnExitTar" layoutX="14.0" layoutY="14.0" onMouseClicked="#BtnClTar" prefHeight="25.0" prefWidth="82.0">
+                     <children>
+                        <Label layoutX="11.0" layoutY="4.0" text="Вернуться">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Pane fx:id="PNews" layoutY="-4.0" prefHeight="629.0" prefWidth="852.0" style="-fx-background-color: #909CE4;" visible="false">
+            <children>
+            <Pane fx:id="btnExitpNews" layoutX="24.0" layoutY="30.0" onMouseClicked="#BtnClNews" prefHeight="25.0" prefWidth="82.0">
+               <children>
+                  <Label layoutX="13.0" layoutY="4.0" text="Вернуться">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="24.0" layoutY="128.0" prefHeight="441.0" prefWidth="805.0" style="-fx-border-color: black; -fx-background-color: #71c0c9;">
+               <children>
+                      <TableView fx:id="tableN" layoutX="13.0" layoutY="20.0" prefHeight="402.0" prefWidth="779.0">
+                          <columns>
+                              <TableColumn fx:id="CodeID" prefWidth="45.0" text="№" />
+                              <TableColumn fx:id="TbNews" prefWidth="548.0" text="Новость" />
+                              <TableColumn fx:id="TbDate" prefWidth="185.0" text="Дата" />
+                          </columns>
+                      </TableView>
+               </children>
+            </Pane>
+                <Label layoutX="373.0" layoutY="27.0" text="НОВОСТИ" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Label>
+            <ScrollPane fx:id="PNewsN" layoutX="-1.0" prefHeight="629.0" prefWidth="852.0" visible="false">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1126.0" prefWidth="834.0" style="-fx-background-color: #909CE4;">
+                     <children>
+                        <Label fx:id="nameNews" layoutX="323.0" layoutY="11.0" text="Название новости" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font></Label>
+                        <Label fx:id="lbOpis" alignment="TOP_LEFT" layoutX="390.0" layoutY="70.0" prefHeight="788.0" prefWidth="430.0" text="Описание новости" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font></Label>
+                        <ImageView fx:id="imageScreen" fitHeight="238.0" fitWidth="278.0" layoutX="14.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../photo1.jpg" />
+                           </image></ImageView>
+                        <Pane fx:id="btnpClsNews" layoutX="14.0" layoutY="14.0" onMouseClicked="#btnCloseNews" prefHeight="25.0" prefWidth="82.0">
+                           <children>
+                              <Label layoutX="11.0" layoutY="4.0" text="Вернуться">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            </children></Pane>
+    </children>
+</AnchorPane>

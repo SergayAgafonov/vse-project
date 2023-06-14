@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="PAut" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="636.0" prefWidth="700.0" style="-fx-background-color: #909CE4;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jkhdiplom.AutorizationController">
+    <children>
+        <AnchorPane layoutX="149.0" layoutY="67.0" prefHeight="503.0" prefWidth="403.0" style="-fx-background-color: #B9E3EF; -fx-border-color: black; -fx-border-radius: 20; -fx-background-radius: 20;">
+            <children>
+                <Label layoutX="36.0" layoutY="81.0" text="Войти в личный кабинет">
+                    <font>
+                        <Font name="Times New Roman Bold" size="29.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="tflogin" layoutX="101.0" layoutY="158.0" prefHeight="33.0" prefWidth="200.0" promptText="Логин" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="tfpass" layoutX="102.0" layoutY="202.0" prefHeight="25.0" prefWidth="200.0" promptText="Пароль" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="codefield" layoutX="101.0" layoutY="244.0" prefHeight="25.0" prefWidth="200.0" promptText="CAPCHA" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <Label fx:id="codepic" layoutX="28.0" layoutY="244.0" prefHeight="33.0" prefWidth="66.0">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="wtext" layoutX="102.0" layoutY="293.0" prefHeight="20.0" prefWidth="200.0" textAlignment="CENTER" textFill="RED">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Label>
+            <Pane fx:id="btnSigUpAuth" layoutX="144.0" layoutY="326.0" onMouseClicked="#signUpButton" prefHeight="33.0" prefWidth="116.0">
+               <children>
+                  <Label layoutX="37.0" layoutY="7.0" text="Войти">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="gBtnAuth" layoutX="144.0" layoutY="371.0" onMouseClicked="#glavnoeMenuButton" prefHeight="33.0" prefWidth="116.0">
+               <children>
+                  <Label layoutX="30.0" layoutY="7.0" text="Главная">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="RegBtnAuth" layoutX="144.0" layoutY="416.0" onMouseClicked="#registrButton" prefHeight="33.0" prefWidth="116.0">
+               <children>
+                  <Label layoutX="15.0" layoutY="7.0" text="Регистрация">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

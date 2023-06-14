@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pRegWind" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jkhdiplom.RegistrationController">
+    <children>
+        <ScrollPane prefHeight="705.0" prefWidth="700.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1058.0" prefWidth="683.0" style="-fx-background-color: #909CE4;">
+                    <children>
+                        <Label layoutX="262.0" layoutY="14.0" text="Регистрация" textFill="WHITE">
+                            <font>
+                                <Font name="Times New Roman Bold" size="29.0" />
+                            </font></Label>
+                        <TextField fx:id="loginfl" layoutX="181.0" layoutY="85.0" prefHeight="33.0" prefWidth="325.0" promptText="Логин" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="passwordfl" layoutX="181.0" layoutY="129.0" prefHeight="33.0" prefWidth="325.0" promptText="Пароль" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="passfl" layoutX="181.0" layoutY="169.0" prefHeight="33.0" prefWidth="325.0" promptText="Подтверждение пароля" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="emailfl" layoutX="181.0" layoutY="211.0" prefHeight="33.0" prefWidth="325.0" promptText="Адрес e-mail" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="namefl" layoutX="181.0" layoutY="253.0" prefHeight="33.0" prefWidth="325.0" promptText="Имя" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="otchfl" layoutX="181.0" layoutY="294.0" prefHeight="33.0" prefWidth="325.0" promptText="Отчество" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="famfl" layoutX="181.0" layoutY="332.0" prefHeight="33.0" prefWidth="325.0" promptText="Фамилия" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="daterfl" layoutX="181.0" layoutY="412.0" prefHeight="33.0" prefWidth="325.0" promptText="Дата рождения" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="telfl" layoutX="181.0" layoutY="451.0" prefHeight="33.0" prefWidth="325.0" promptText="Телефон" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="cityfl" layoutX="181.0" layoutY="488.0" prefHeight="33.0" prefWidth="325.0" promptText="Город" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="homestfl" layoutX="181.0" layoutY="528.0" prefHeight="33.0" prefWidth="325.0" promptText="Улица" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="oblfl" layoutX="181.0" layoutY="569.0" prefHeight="33.0" prefWidth="325.0" promptText="Область/край" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="rfl" layoutX="181.0" layoutY="610.0" prefHeight="33.0" prefWidth="325.0" promptText="Район" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="numhomefl" layoutX="181.0" layoutY="651.0" prefHeight="33.0" prefWidth="325.0" promptText="Номер дома" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <TextField fx:id="numkvfl" layoutX="181.0" layoutY="694.0" prefHeight="33.0" prefWidth="325.0" promptText="Номер квартиры" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <ComboBox fx:id="polbox" layoutX="181.0" layoutY="371.0" prefHeight="33.0" prefWidth="325.0" promptText="Пол" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: black;" />
+                        <TextField fx:id="numlicsfl" layoutX="181.0" layoutY="735.0" prefHeight="33.0" prefWidth="325.0" promptText="Номер лицевого счета" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <Label fx:id="codepic" alignment="CENTER" layoutX="294.0" layoutY="783.0" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: white;" text="Label" textAlignment="CENTER">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="codefield" layoutX="181.0" layoutY="836.0" prefHeight="33.0" prefWidth="325.0" promptText="CAPCHA" style="-fx-border-color: #000000; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                        <Label layoutX="72.0" layoutY="839.0" text="Ввод capcha:">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="wtext" layoutX="332.0" layoutY="881.0" text="Label" visible="false" />
+                  <Pane fx:id="pRegbtn" layoutX="264.0" layoutY="917.0" onMouseClicked="#btnReg" prefHeight="29.0" prefWidth="154.0">
+                     <children>
+                        <Label layoutX="8.0" layoutY="5.0" text="Зарегистрироваться">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pAuthbtn" layoutX="264.0" layoutY="958.0" onMouseClicked="#btnAuth" prefHeight="29.0" prefWidth="154.0">
+                     <children>
+                        <Label layoutX="32.0" layoutY="4.0" text="Авторизация">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="gMenubtn" layoutX="264.0" layoutY="998.0" onMouseClicked="#glavnoeMenuButton" prefHeight="29.0" prefWidth="154.0">
+                     <children>
+                        <Label layoutX="56.0" layoutY="4.0" text="Меню">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

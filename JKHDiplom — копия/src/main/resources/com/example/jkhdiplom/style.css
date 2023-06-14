@@ -1,0 +1,1335 @@
+//------------------------------Главное окно//
+#p{
+-fx-background-color: #C0D2E6;
+-fx-border-color: Black;
+}
+
+#p:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#p:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#p3
+{
+-fx-background-color: #EF9A95;
+-fx-border-color: Black;
+}
+
+#p3:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#p3:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#p4
+{
+-fx-background-color: #71c0c9;
+-fx-border-color: Black;
+}
+
+#p4:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#p4:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#p5
+{
+-fx-background-color: #FEC684;
+-fx-border-color: Black;
+}
+
+#p5:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#p5:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#p6
+{
+-fx-background-color: #B4CDAB;
+-fx-border-color: Black;
+}
+
+#p6:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#p6:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PAuth
+{
+-fx-background-color: #C9E692;
+-fx-border-color: Black;
+}
+
+#PAuth:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PAuth:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PReg
+{
+-fx-background-color: #A3E8CB;
+-fx-border-color: Black;
+}
+
+#PReg:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PReg:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+//------------------------------Главное окно//
+
+//------------------------------Главное окно СОТРУДНИКА//
+#btnPVernZP
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnPVernZP:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnPVernZP:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PEzGM
+{
+-fx-background-color: #A3E8CB;
+-fx-border-color: Black;
+}
+
+#PEzGM:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PEzGM:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PSpP
+{
+-fx-background-color: #EF9A95;
+-fx-border-color: Black;
+}
+
+#PSpP:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PSpP:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PSpZ
+{
+-fx-background-color: #C9E692;
+-fx-border-color: Black;
+}
+
+#PSpZ:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PSpZ:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+//------------------------------Главное окно СОТРУДНИКА//
+
+//----------------------------------------------Окно Тарифов//
+#btnExitTar
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnExitTar:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnExitTar:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#TPane1{
+-fx-background-color: #B2DFF2
+}
+
+#TPane1:hover {
+-fx-background-color: #40AFC2
+}
+
+#TPane2{
+-fx-background-color: #B2DFF2
+}
+
+#TPane2:hover {
+-fx-background-color: #40AFC2
+}
+
+#TPane3{
+-fx-background-color: #B2DFF2
+}
+
+#TPane3:hover {
+-fx-background-color: #40AFC2
+}
+
+#TPane4{
+-fx-background-color: #B2DFF2
+}
+
+#TPane4:hover {
+-fx-background-color: #40AFC2
+}
+
+#btnExitTarAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnExitTarAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnExitTarAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAddTarAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAddTarAdm1
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm1:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm1:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAddTarAdm2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAddTarAdm3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAddTarAdm3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pIzmTarAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pIzmTarAdm1
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm1:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm1:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pIzmTarAdm2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pIzmTarAdm3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pIzmTarAdm3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pDellTarAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pDellTarAdm1
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm1:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm1:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pDellTarAdm2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pDellTarAdm3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pDellTarAdm3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+//----------------------------------------------Окно Тарифов//
+
+//----------------------------------------------------Главная(не вся(Услуги окно))//
+#btnExitPrZasAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnExitPrZasAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnExitPrZasAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PDellUsl
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PDellUsl:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PDellUsl:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUsl
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUsl:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUsl:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUsl
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUsl:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUsl:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PDellUslS
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PDellUslS:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PDellUslS:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslS
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslS:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslS:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslS
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslS:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslS:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PDellUslP
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PDellUslP:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PDellUslP:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslP
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslP:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslP:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslP
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslP:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslP:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PDellUslK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PDellUslK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PDellUslK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PaneDU1
+{
+-fx-background-color:  #71c0c9;
+-fx-border-color: Black;
+}
+
+#PaneDU1:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PaneDU1:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PaneDU2
+{
+-fx-background-color: #C0D2E6;
+-fx-border-color: Black;
+}
+
+#PaneDU2:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PaneDU2:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PaneDU3
+{
+-fx-background-color:  #71c0c9;
+-fx-border-color: Black;
+}
+
+#PaneDU3:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PaneDU3:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#PaneDU4
+{
+-fx-background-color: #C0D2E6;
+-fx-border-color: Black;
+}
+
+#PaneDU4:hover {
+-fx-border-color: Black;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+
+#PaneDU4:pressed {
+-fx-border-color: Black;
+-fx-scale-y: 0.9;
+-fx-scale-x: 0.9;
+}
+
+#BtnClDopUsl
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#BtnClDopUsl:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#BtnClDopUsl:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+//----------------------------------------------------Главная(не вся(Услуги окно))//
+
+//----------------------------------------------------ЛИЧНЫЙ КАБИНЕТ//
+#pOtprLK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pOtprLK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pOtprLK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pOtmenaLK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pOtmenaLK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pOtmenaLK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pExitLK
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pExitLK:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pExitLK:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pPodtv
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pPodtv:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pPodtv:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+//----------------------------------------------------ЛИЧНЫЙ КАБИНЕТ//
+
+//----------------------------------------------------Регистрация//
+#pRegbtn
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pRegbtn:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pRegbtn:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAuthbtn
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAuthbtn:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAuthbtn:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#gMenubtn
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#gMenubtn:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#gMenubtn:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+//----------------------------------------------------Регистрация//
+
+//----------------------------------------------------Авторизация//
+#RegBtnAuth
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#RegBtnAuth:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#RegBtnAuth:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#gBtnAuth
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#gBtnAuth:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#gBtnAuth:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnSigUpAuth
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnSigUpAuth:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnSigUpAuth:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+//----------------------------------------------------Авторизация//
+
+//----------------------------------------------------Окно новостей//
+#btnpClsNews
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnpClsNews:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnpClsNews:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnExitpNews
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnExitpNews:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnExitpNews:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnClNewsAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnClNewsAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnClNewsAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pAddNewsAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pAddNewsAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pAddNewsAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pIzmNewsAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pIzmNewsAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pIzmNewsAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pDellNewsAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pDellNewsAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pDellNewsAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnCloseNewsNAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnCloseNewsNAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnCloseNewsNAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnCloseSpZAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnCloseSpZAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnCloseSpZAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnClDellSpZAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnClDellSpZAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnClDellSpZAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#btnClIzmSpZAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#btnClIzmSpZAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#btnClIzmSpZAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#pExitSpZNAdm
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#pExitSpZNAdm:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#pExitSpZNAdm:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PSohr
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PSohr:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PSohr:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#ClsPAd
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#ClsPAd:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#ClsPAd:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PSohrAd
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PSohrAd:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PSohrAd:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+//----------------------------------------------------Окно новостей//
+
+#PAddUslWind
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslWind:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslWind:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslWind2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslWind2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslWind2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslWind3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslWind3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslWind3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PAddUslWind4
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PAddUslWind4:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PAddUslWind4:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackUslWind
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackUslWind:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackUslWind:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackUslWind2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackUslWind2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackUslWind2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackUslWind3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackUslWind3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackUslWind3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackUslWind4
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackUslWind4:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackUslWind4:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslWind
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslWind2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslWind3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PIzmUslWind4
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind4:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PIzmUslWind4:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackIzmUslWind
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackIzmUslWind2
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind2:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind2:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackIzmUslWind3
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind3:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind3:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
+
+#PBackIzmUslWind4
+{
+-fx-background-color: White;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind4:hover {
+-fx-background-color: #DEE5ED;
+-fx-border-color: Black;
+}
+
+#PBackIzmUslWind4:pressed {
+-fx-background-color: White;
+-fx-border-color: Black;}
